@@ -1,0 +1,167 @@
+body {
+  font-family: "Montserrat-Black";
+  text-align: center;
+
+}
+
+
+/* HEADING */
+h1 {
+  padding: 4rem 0 2rem 0;
+  font-family: "Montserrat-bold";
+  font-size: 2.5rem;
+  line-height: 1.5;
+  color: #fff;
+}
+
+h2 {
+  font-family: "Montserrat-bold";
+  color: #fff;
+  font-size: 3rem;
+}
+
+h3 {
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+#title {
+  background-color: #F2360E;
+  color: #fff;
+}
+
+/* <!-- Nav Bar --> */
+
+.container-fluid {
+  padding: 3% 9.5% 5%;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  color: white;
+  padding-right: 2rem;
+}
+
+/* <!-- Title --> */
+
+.btn {
+  margin: 4% 3% 5% 0;
+}
+
+.title-img {
+  display: block;
+  width: 40%;
+  position: absolute;
+}
+
+/* <!-- Features --> */
+
+#features {
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.icon {
+  color: #F2360E;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #FF6342;
+}
+
+/* <!-- Testimonials --> */
+
+#testimonials {
+  background-color: antiquewhite;
+  padding: 10%;
+}
+
+.testimonial-image {
+  margin-top: 3rem;
+  width: 40%;
+border-radius: 30px;
+}
+
+.carousel-item {
+  padding: 7% 13%;
+}
+
+.testimonial-text{
+  margin-left: 0rem;
+  padding-top: 10%;
+  font-size: 2rem;
+  text-align: center;
+  color: #000;
+}
+
+/* <!-- Pricing --> */
+
+#pricing {
+  font-family: "Montserrat-bold";
+  color: #000;
+  padding: 5% 13%;
+}
+
+.pricing-col {
+  padding: 2% 1%;
+}
+
+.pricing-text{
+  text-align: left;
+  font-size: 2rem;
+  color: #000;
+  font-family: "Montserrat-bold";
+}
+
+.pricing-img{
+  width: 100%;
+}
+
+.card-heading{
+  font-size: 1.5rem;
+}
+  /* <!-- Call to Action --> */
+
+#cta {
+  background-color: #F2360E;
+  padding: 7% 15%;
+}
+
+/* <!-- Footer --> */
+
+#footer {
+  text-align: center;
+  padding: 7% 12%;
+}
+
+.footer-icon {
+  padding: 2% 1%;
+}
+
+.footer-heading {
+  font-size: 3.5rem;
+}
+
+
+@media (max-width:995px) {
+  .title-img {
+    position: static;
+    width: 100%;
+  }
+}
+
